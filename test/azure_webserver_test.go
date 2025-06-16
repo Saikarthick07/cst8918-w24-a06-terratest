@@ -19,7 +19,7 @@ func TestAzureLinuxVMCreation(t *testing.T) {
 		TerraformDir: "../",
 
 		Vars: map[string]interface{}{
-			"labelPrefix": labelPrefix,
+			"label_prefix": labelPrefix,
 		},
 
 		EnvVars: map[string]string{
